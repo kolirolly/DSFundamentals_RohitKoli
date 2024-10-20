@@ -46,7 +46,7 @@ Link: https://github.com/kolirolly/DSFundamentals_RohitKoli/tree/main/assignment
 
 **6. Assignment 6**
 
-Description: This assignment calculates total ticket costs by adding visa fees (based on the last stamped location) to ticket prices fetched from a MongoDB database.
+Description:  Finding longest 111 string in 3d matrix. Finds and returns the longest contiguous sequence of 1s in any horizontal slice of the matrix, along with the starting position of this sequence
 
 Link: https://github.com/kolirolly/DSFundamentals_RohitKoli/tree/main/assignment_6
 
@@ -54,9 +54,16 @@ Link: https://github.com/kolirolly/DSFundamentals_RohitKoli/tree/main/assignment
 
 **7. Assignment 7**
 
-Description: This assignment analyzes product reviews' sentiment using VADER, categorizes them, saves summaries to files, and displays a sentiment distribution bar chart.
+Description:calculates total ticket costs by adding visa fees, based on the last stamped location, to ticket prices fetched from MongoDB.
 
 Link: https://github.com/kolirolly/DSFundamentals_RohitKoli/tree/main/assignment_7
 
 ---
 
+**8. Assignment 8**
+
+Description: The code analyzes product reviews' sentiment using VADER, categorizes them, saves summaries to files, and displays a sentiment distribution bar chart.
+
+Link: https://github.com/kolirolly/DSFundamentals_RohitKoli/tree/main/assignment_8
+
+---
