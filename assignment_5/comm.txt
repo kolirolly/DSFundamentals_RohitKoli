@@ -1,0 +1,52 @@
+CREATE DATABASE ecomsite;
+
+DROP DATABASE ecomsite;
+
+SHOW DATABASES;
+
+USE ecomsite;
+
+CREATE TABLE category (
+    cat_id INT AUTO_INCREMENT PRIMARY KEY,
+    cat_name VARCHAR(255) NOT NULL
+);
+
+DESCRIBE category;
+
+select * from category;
+
+INSERT INTO category (cat_name) VALUES ('food');
+INSERT INTO category (cat_name) VALUES ('electronics');
+INSERT INTO category (cat_name) VALUES ('clothes');
+INSERT INTO category (cat_name) VALUES ('footwear');
+INSERT INTO category (cat_name) VALUES ('furniture');
+
+select * from category;
+
+CREATE TABLE product (
+    product_id INT AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(255) NOT NULL,
+    price FLOAT NOT NULL,
+    cat_id INT,
+    FOREIGN KEY (cat_id) REFERENCES category(cat_id)
+);
+
+DESCRIBE product;
+
+INSERT INTO product (product_name, price, cat_id) VALUES
+    ('computer', 100000.0, 2),
+    ('laptop', 50000.0, 2),
+    ('sofa', 30000.0, 5),
+    ('shoes', 300.2, 4),
+    ('sandals', 500.5, 4),
+    ('shirt', 1000.0, 3),
+    ('pants', 500.0, 3),
+    ('burger', 50.0, 1),
+    ('apple', 5.0, 1),
+    ('phone', 20000.0, 2);
+
+
+
+
+
+
